@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #912ee1;
+  color: rgb(225, 231, 49);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.feature {
+  flex-basis: calc(33.33% - 1rem);
+  padding: 1rem;
+  background-color: #2be3e7;
+  text-align: center;
+}
+
+.testimonials {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.contact {
+  margin-top: 3rem;
+  text-align: center;
+}
+
